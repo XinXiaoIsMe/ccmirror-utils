@@ -1,5 +1,5 @@
 {
-  "name": "uds-utils",
+  "name": "cc-utils",
   "version": "0.0.1",
   "description": "some utils",
   "main": "dist/lib/index.js",
