@@ -1,5 +1,5 @@
 {
-  "name": "cc-utils",
+  "name": "ccmirror-utils",
   "version": "0.0.1",
   "description": "some utils",
   "main": "dist/lib/index.js",
@@ -14,9 +14,6 @@
   "keywords": [
     "utils"
   ],
-  "publishConfig": {
-    "registry": "http://host-1.udschina.com:8081/repository/npm-hosted/"
-  },
   "files": [
     "README.md",
     "package.json",
