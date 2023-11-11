@@ -1,0 +1,34 @@
+{
+  "name": "uds-utils",
+  "version": "0.0.1",
+  "description": "some utils",
+  "main": "dist/lib/index.js",
+  "module": "dist/es/index.mjs",
+  "types": "dist/types/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "pnpm clear & vite build",
+    "clear": "rimraf dist",
+    "test": "vitest"
+  },
+  "keywords": [
+    "utils"
+  ],
+  "publishConfig": {
+    "registry": "http://host-1.udschina.com:8081/repository/npm-hosted/"
+  },
+  "files": [
+    "README.md",
+    "package.json",
+    "dist"
+  ],
+  "author": "ccattempt",
+  "license": "ISC",
+  "devDependencies": {
+    "fast-glob": "^3.3.2",
+    "rimraf": "^5.0.5",
+    "vite": "^4.5.0",
+    "vite-plugin-dts": "^3.6.3",
+    "vitest": "^0.34.6"
+  }
+}

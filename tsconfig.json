@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "declarationMap": false,
+        "emitDeclarationOnly": true,
+        "esModuleInterop": true,
+        "lib": ["dom", "es2015", "es2016", "es2017", "es2018", "es2019", "es2020", "ESNext"],
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "target": "ESNext",
+        // Enhance strictness.
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "strict": true,
+    }
+}
