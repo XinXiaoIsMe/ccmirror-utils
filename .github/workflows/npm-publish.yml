@@ -16,6 +16,8 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 17.x
+      - run: npm i
+      - run: npm i pnpm -D
       - run: npm run build
 
   publish-npm:
