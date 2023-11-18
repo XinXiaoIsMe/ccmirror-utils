@@ -17,8 +17,8 @@ jobs:
         with:
           node-version: 17.x
       - run: npm i
-      - run: npm i pnpm -D
-      - run: npm run build
+      - run: npm i pnpm -g
+      - run: pnpm build
 
   publish-npm:
     needs: build
@@ -29,6 +29,7 @@ jobs:
         with:
           node-version: 17.x
           registry-url: https://registry.npmjs.org/
+      - run: npm ci
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: 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
