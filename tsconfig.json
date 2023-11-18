@@ -12,5 +12,6 @@
         "noImplicitReturns": true,
         "noUnusedLocals": true,
         "strict": true,
+        "noImplicitAny": false
     }
 }
