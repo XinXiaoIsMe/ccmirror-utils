@@ -9,8 +9,7 @@
     "dev": "vite",
     "build": "pnpm clear & vite build",
     "clear": "rimraf dist",
-    "test": "vitest",
-    "pub": "pnpm build & npm publish"
+    "test": "vitest"
   },
   "keywords": [
     "utils"
